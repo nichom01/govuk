@@ -1,0 +1,164 @@
+/* GOV.UK Design System Base Styles */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "GDS Transport", arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #0b0c0c;
+  background-color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.govuk-template {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.govuk-main-wrapper {
+  flex: 1;
+  padding: 30px 0;
+}
+
+.govuk-width-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.govuk-grid-row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.govuk-grid-column-two-thirds {
+  width: 66.6666%;
+  padding-left: 15px;
+  padding-right: 15px;
+  float: left;
+}
+
+.govuk-heading-xl {
+  font-family: "GDS Transport", arial, sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.04167;
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: #0b0c0c;
+}
+
+.govuk-heading-l {
+  font-family: "GDS Transport", arial, sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #0b0c0c;
+}
+
+.govuk-body-l {
+  font-family: "GDS Transport", arial, sans-serif;
+  font-size: 24px;
+  line-height: 1.25;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #0b0c0c;
+}
+
+.govuk-body {
+  font-family: "GDS Transport", arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #0b0c0c;
+}
+
+.govuk-list {
+  font-family: "GDS Transport", arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.govuk-list--bullet {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.govuk-list li {
+  margin-bottom: 5px;
+}
+
+.govuk-link {
+  color: #1d70b8;
+  text-decoration: underline;
+}
+
+.govuk-link:hover {
+  text-decoration-thickness: 3px;
+}
+
+.govuk-link:focus {
+  outline: 3px solid #ffdd00;
+  outline-offset: 0;
+}
+
+.govuk-inset-text {
+  font-family: "GDS Transport", arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #0b0c0c;
+  padding: 15px;
+  margin: 30px 0;
+  border-left: 4px solid #1d70b8;
+  background-color: #f3f2f1;
+}
+
+.govuk-inset-text p {
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .govuk-width-container {
+    padding: 0 15px;
+  }
+  
+  .govuk-grid-column-two-thirds {
+    width: 100%;
+    float: none;
+  }
+  
+  .govuk-heading-xl {
+    font-size: 32px;
+    line-height: 1.09375;
+  }
+  
+  .govuk-heading-l {
+    font-size: 24px;
+    line-height: 1.25;
+  }
+  
+  .govuk-body-l {
+    font-size: 18px;
+    line-height: 1.31579;
+  }
+}

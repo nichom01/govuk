@@ -1,0 +1,89 @@
+.govuk-header {
+  background-color: #1d70b8; /* Blue background - rebranded June 2025 */
+  border-bottom: 0;
+  padding: 0;
+  position: relative;
+  z-index: 100;
+}
+
+.govuk-header__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+  position: relative;
+}
+
+.govuk-header__logo {
+  display: inline-block;
+  padding: 10px 0;
+}
+
+.govuk-header__link {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.govuk-header__link:link,
+.govuk-header__link:visited {
+  color: #ffffff;
+}
+
+.govuk-header__link:hover {
+  text-decoration: underline;
+}
+
+.govuk-header__link:focus {
+  outline: 3px solid #ffdd00;
+  outline-offset: 0;
+}
+
+.govuk-header__logotype {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.govuk-header__logotype-crown {
+  fill: currentColor;
+  vertical-align: middle;
+}
+
+.govuk-header__logotype-text {
+  font-family: "GDS Transport", arial, sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1;
+  color: #ffffff;
+  letter-spacing: -1px;
+}
+
+.govuk-header__content {
+  display: inline-block;
+  margin-left: 20px;
+  padding: 10px 0;
+}
+
+.govuk-header__link--service-name {
+  font-family: "GDS Transport", arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #ffffff;
+}
+
+@media (max-width: 640px) {
+  .govuk-header__container {
+    padding: 0 15px;
+  }
+  
+  .govuk-header__logotype-text {
+    font-size: 24px;
+  }
+  
+  .govuk-header__content {
+    margin-left: 0;
+    display: block;
+  }
+}
+
+
