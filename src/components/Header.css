@@ -43,18 +43,13 @@
   gap: 8px;
 }
 
-.govuk-header__logotype-crown {
+.govuk-header__logotype {
   fill: currentColor;
   vertical-align: middle;
 }
 
-.govuk-header__logotype-text {
-  font-family: "GDS Transport", arial, sans-serif;
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 1;
-  color: #ffffff;
-  letter-spacing: -1px;
+.govuk-logo-dot {
+  fill: #00ffe0;
 }
 
 .govuk-header__content {
